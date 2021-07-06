@@ -1,0 +1,28 @@
+.country-info{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+   
+}
+
+
+#btn{
+    border: none;
+    background-color: lime;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#flag{
+    width: 300px;
+}
